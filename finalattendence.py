@@ -13,7 +13,7 @@ class AttendanceSystem:
         self.db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Blackshadow8080800821",
+            password=" ", #write your password here
             database="attendance_syste"
         )
         self.cursor = self.db.cursor(buffered=True)
